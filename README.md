@@ -2,7 +2,7 @@
 
 # PHYS220/MATH220/CPSC220 CW 12
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Frank Entriken and Grady Lynch**
 
 ## Specification
 
@@ -28,7 +28,7 @@ Your homework this week will be to finish this classwork assignment, and then us
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**CHANGEME**
+**This assignment showed us how to apply the runge kutta method that we researched in our previous classworks. Once our graphs came out it was great to see the relationships between what we could change and the motion of the ball. It is the closest I have come to creating an actual simulation which is exciting.**
 
 ## Honor Pledge
 
@@ -39,4 +39,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAMES**
+**Frank Entriken and Grady Lynch**
