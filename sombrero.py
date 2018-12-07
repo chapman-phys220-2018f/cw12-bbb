@@ -14,6 +14,7 @@ import numba as nb
 import matplotlib.pyplot as plt
 
 def RK4(x0, y0, F, N):
+"""RK4 plots the graph of a ball rolling inside a shaking sombrero by taking in the ball's initial x and y position, the force of the shake, and the number     of points taken as the ball is in motion."""
     x = np.zeros(N*50)
     y = np.zeros(N*50)
 
@@ -33,6 +34,7 @@ def RK4(x0, y0, F, N):
     y4=0
 
     for i in range(1, len(t)):
+    """Computes Runge Kutta 4th Order to find the position values of the ball"""
         x1 = d*y[i-1]
         y1 = d*((x[i-1])-(x[i-1])**3-(0.25*y[i-1])+(F*np.cos(t[i-1])))
 
@@ -63,6 +65,7 @@ def RK4(x0, y0, F, N):
     plt.scatter(xx,yy)
 
 def RK4_2(x0, y0, F, N):
+"""Same as RK4 but N is now multiplied by 1000 coming from 50"""
     x = np.zeros(N*1000)
     y = np.zeros(N*1000)
 
@@ -82,6 +85,7 @@ def RK4_2(x0, y0, F, N):
     y4=0
 
     for i in range(1, len(t)):
+    """Computes Runge Kutta 4th Order to find the position values of the ball"""
         x1 = d*y[i-1]
         y1 = d*((x[i-1])-(x[i-1])**3-(0.25*y[i-1])+(F*np.cos(t[i-1])))
 
